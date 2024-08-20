@@ -24,9 +24,9 @@
         <br>
 
         <label for="">Tipo:</label>
-        <input type="radio" name="tipo" value="entrada">
+        <input type="radio" name="tipo" value="entrada" <?php echo $row['tipo']=="entrada" ? "checked" : "";?>>
         <label for="">Entrada</label>
-        <input type="radio" name="tipo" value="saida">
+        <input type="radio" name="tipo" value="saida" <?php echo $row['tipo']=="saida" ? "checked" : "";?>>
         <label for="">Saida</label>
         
         <br>
