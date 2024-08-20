@@ -1,3 +1,10 @@
+<?php
+    include('conexao.php');
+    $id = $_GET['id'];
+
+    
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,6 +14,7 @@
     <title>Document</title>
 </head>
 <body>
+    <h1>Alterar Fluxo de Caixa</h1><br>
     <form action="cadastro_fluxo_caixa.php" method="post">
 
         <label for="">Data:</label>
@@ -40,7 +48,7 @@
 
         <br><br>
 
-        <input type="submit" value="Enviar">
+        <input type="submit" value="Alterar">
     </form>
 
     
